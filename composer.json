@@ -99,12 +99,7 @@
     },
     
     
-  "repositories": [
-    {
-      "type": "vcs",
-      "url":  "https://github.com/devloic/PackageBase.git"
-    }
-  ],
+  
     
     "require": {
         "php": ">=7.4",
@@ -119,7 +114,12 @@
         "devloic/packagebase": "dev-develop",
         "wsdltophp/phpgenerator": "^4.0",
         "wsdltophp/wsdlhandler": "^1.0"
-    },
+    },"repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/devloic/PackageBase.git"
+    }
+  ],
     "scripts": {
         "test": "php-7.4 vendor/bin/phpunit",
         "lint": "php-7.4 vendor/bin/php-cs-fixer fix --ansi --diff --verbose",
