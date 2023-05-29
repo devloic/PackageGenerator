@@ -97,6 +97,15 @@
     "support" : {
         "email" : "contact@wsdltophp.com"
     },
+    
+    
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/devloic/PackageBase.git"
+    }
+  ],
+    
     "require": {
         "php": ">=7.4",
         "ext-dom": "*",
@@ -107,7 +116,7 @@
         "composer/composer": "^2.0",
         "symfony/console": "^4.0|^5.0|^6.0",
         "symfony/yaml": "^4.0|^5.0|^6.0",
-        "wsdltophp/packagebase": "^5.0",
+        "devloic/PackageBase": "dev-main",
         "wsdltophp/phpgenerator": "^4.0",
         "wsdltophp/wsdlhandler": "^1.0"
     },
